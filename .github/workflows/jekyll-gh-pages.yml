@@ -36,7 +36,7 @@ jobs:
         run: npm install
 
       - name: Build with npm
-        run: npm start  # Use npm start or npm run build if you have a separate build script
+        run: npm start & # Use npm start or npm run build if you have a separate build script
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
